@@ -147,10 +147,53 @@ img {
     margin-right: 20px;
 }
 
+.content-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 150px;
+}
+
+.content-three .box {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    padding: 40px 70px;
+    border-radius: 5px;
+    gap: 40px;
+}
+
+.content-three .content-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.content-text .text-one {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content-text .text-two {
+    font-size: 18px;
+}
+
+.content-three button {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
 
 
 .footer {
     background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
 
