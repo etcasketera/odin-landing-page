@@ -126,7 +126,26 @@ img {
     text-align: center;
 }
 
+.content-two {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 150px;
+    gap: 10px;
+}
 
+.content-two .text-one {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.content-two .text-two {
+    align-self: flex-end;
+    margin-right: 20px;
+}
 
 
 
