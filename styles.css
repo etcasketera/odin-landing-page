@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    font-family: 'Pacifico', cursive;
 }
 
 ul {
@@ -45,7 +46,6 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    font-family: 'Pacifico', cursive;
 }
 
 .header-text .text-two, .right-nav-bar {
